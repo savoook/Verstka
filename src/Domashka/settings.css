@@ -1,0 +1,5 @@
+img { width:300px; transition:width 0.5s ease; }
+#statya:hover img {width: 50%}
+.title {color: #1f6b18; text-align: center;
+}
+#title_black {color: darkorchid}
