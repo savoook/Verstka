@@ -1,6 +1,19 @@
-* {
-    font-size: 24px;
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: bold;
 }
+/** {*/
+/*    font-family: "Freestyle Script";*/
+/*    font-variant: all-petite-caps;*/
+/*    font-weight: 900;*/
+/*    font-size: 30px;*/
+/*    font-style: inherit;*/
+/*}*/
+
+/** {*/
+/*    font: italic small-caps normal 13px/150% Arial Helvetica sans-serif;*/
+/*}*/
 
 div + span {
     color: red;
@@ -117,11 +130,14 @@ h5:before {
 p {
     text-align: center;
 }
-p:first-line{
+
+p:first-line {
     font-size: 50px;
     color: mediumaquamarine;
 }
+
 p:first-letter {
     font-size: 70px;
     color: fuchsia;
 }
+

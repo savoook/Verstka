@@ -1,5 +1,60 @@
-img { width:300px; transition:width 0.5s ease; }
-#statya:hover img {width: 50%}
-.title {color: #1f6b18; text-align: center;
+body {
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+    color: #ae3823;
 }
-#title_black {color: darkorchid}
+
+img {
+    width: 300px;
+    transition: width 0.5s ease;
+}
+
+#statya:hover img {
+    width: 100vw;
+}
+
+.title {
+    color: #5c6b29;
+    text-align: center;
+}
+
+#title_black {
+    color: #cc472e
+}
+.sparava {
+    float: right;
+    text-align: right;
+}
+
+/*div:nth-child(2n+1) {*/
+/*    background-color: red;*/
+/*}*/
+a:visited {
+    color: blueviolet;
+}
+a:hover {
+    color: rgba(0, 10, 255, 0.67);
+}
+a:active {
+    color: red;
+}
+.category {
+    font-weight: bold;
+    color: #a50d00;
+}
+/*h1 ~ span {*/
+/*    color: red;*/
+/*    text-align: center;*/
+/*    float: inherit;*/
+/*    font-size: small;*/
+    /*}*/
+div>span {
+    font-stretch: ultra-expanded;
+    color: #6a1ca5;
+}
+h1:after {
+    content: "\2667";
+}
+div:first-letter {
+    color: #6ca83e;
+}

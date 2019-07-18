@@ -1,0 +1,77 @@
+/*@font-face {*/
+/*    font-family: "MontserratBlack";*/
+/*    src: url("../fonts/Montserrat-Black.woff");*/
+/*}*/
+/*@font-face {*/
+/*    font-family: "MontserratRegular";*/
+/*    src: url("../fonts/Montserrat-Regular.woff");*/
+/*}*/
+/*body {*/
+/*    font-family: "MontserratRegular", "sans-serif";*/
+/*    font-size: 30px;*/
+/*}*/
+/*.text_bold {*/
+/*    font-family: "MontserratBlack", "sans-serif";*/
+/*    font-size: 30px;*/
+/*}*/
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Black.woff");
+    font-weight: 900;
+}
+
+body {
+    font-family: "Montserrat", "sans-serif";
+    font-size: 30px;
+    background-image: url("https://www.nastol.com.ua/pic/201311/1920x1200/nastol.com.ua-69164.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background: red url("");*/
+}
+
+.text_bold {
+    font-weight: 900;
+}
+
+h1 {
+    letter-spacing: 10px;
+    text-align: right;
+    line-height: 100px;
+    text-decoration: underline line-through;
+    text-transform: lowercase;
+}
+
+p {
+    border: 2px solid red;
+    margin: 0 20px;
+    text-indent: 50px;
+    word-wrap: break-word;
+    text-align: justify;
+    text-transform: capitalize;
+    word-spacing: 30px;
+    letter-spacing: 10px;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 5px 5px 5px fuchsia;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    background-image: url("https://avatars.mds.yandex.net/get-pdb/1822843/5c553394-889d-425b-b19e-b85c048c2873/s1200?webp=false");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: red url("https://avatars.mds.yandex.net/get-pdb/1822843/5c553394-889d-425b-b19e-b85c048c2873/s1200?webp=false") center cover no-repeat;
+}

@@ -1,0 +1,20 @@
+body {
+    background: white url("https://img1.goodfon.ru/original/1920x1408/0/a1/gory-sneg-ravnina-domik-norway.jpg") center fixed no-repeat;
+    background-size: cover;
+}
+
+.box {
+    content: "";
+    display: inline-flex;
+    height: 100% ;
+    width: 20vw;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.box_r {
+    float: right;
+    content: "";
+    display: inline-flex;
+    height: 100%;
+    width: 20vw;
+    background-color: rgba(0, 0, 0, 0.4);
+}
