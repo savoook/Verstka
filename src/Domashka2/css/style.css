@@ -1,20 +1,57 @@
+@font-face {
+    font-family: "Longa Iberica Regular";
+    src: url("../fonts/Longa Iberica Regular.otf");
+}
+
+@font-face {
+    font-family: "Longa Iberica Italic";
+    src: url("../fonts/Longa Iberica Italic.otf");
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    letter-spacing: 10px;
+    /*text-decoration: underline;*/
+    text-shadow: 3px 3px 3px #a51e17;
+}
+
 body {
+    color: rgba(0, 0, 0, 0.71);
+    font-family: "Longa Iberica Regular", "sans-serif";
+    font-size: 50px;
     background: white url("https://img1.goodfon.ru/original/1920x1408/0/a1/gory-sneg-ravnina-domik-norway.jpg") center fixed no-repeat;
     background-size: cover;
+    /*word-wrap: break-word;*/
 }
 
 .box {
     content: "";
-    display: inline-flex;
-    height: 100% ;
-    width: 20vw;
+    display: block;
+    height: 100%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
 }
-.box_r {
-    float: right;
-    content: "";
-    display: inline-flex;
-    height: 100%;
-    width: 20vw;
-    background-color: rgba(0, 0, 0, 0.4);
+
+/*.box_r {*/
+/*    float: right;*/
+/*    content: "";*/
+/*    display: inline-flex;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    background-color: rgba(0, 0, 0, 0.4);*/
+/*}*/
+p {
+    text-indent: 30px;
+    color: #ffffff;
+    /*white-space: -moz-pre-wrap;*/
+
+}
+
+a {
+    color: rgb(226, 226, 226);
+}
+
+a:hover {
+    color: rgb(165, 165, 165);
 }
