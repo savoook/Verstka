@@ -1,0 +1,82 @@
+body {
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    min-width: 150px;
+    max-width: 250px;
+    height: 100px;
+}
+
+th {
+    border: 1px solid black;
+    min-width: 150px;
+    max-width: 250px;
+    height: 100px;
+}
+
+.back_green {
+    background-color: green;
+}
+
+.back_green_yellow {
+    background: linear-gradient(to right top, green 50%, yellow 50%);
+}
+
+.back_yellow {
+    background-color: yellow;
+}
+
+.back_red_yellow {
+    background: linear-gradient(to right top, red 50%, yellow 50%);
+}
+
+.back_red {
+    background-color: red;
+}
+
+.back_purple {
+    background-color: purple;
+}
+
+
+
+.symbol_element {
+    font-weight: bold;
+    text-align: left;
+    vertical-align: top;
+    color: red;
+}
+
+.serial_number {
+    font-size: 25px;
+    text-align: right;
+    float: right;
+    vertical-align: top;
+}
+
+.electronic_configuration {
+    font-size: 20px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.atom_mass {
+    font-size: 15px;
+    text-align: right;
+    float: right;
+    margin: 9px 0px 0px 0px;
+    vertical-align: middle;
+}
+
+.name_element {
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    vertical-align: bottom;
+}

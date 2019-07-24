@@ -1,0 +1,84 @@
+body {
+    font-size: 30px;
+}
+
+.unordered-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+table {
+    margin: 20px auto 50px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    border: 1px solid blue;
+    padding: 10px;
+    min-width: 80px;
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 100px;
+    vertical-align: top;
+}
+
+td input {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cell-bottom {
+    vertical-align: bottom;
+}
+
+.cell-no-padding {
+    padding: 0px;
+}
+
+.table {
+    display: table;
+    margin: 20px auto 50px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    border: 1px solid blue;
+    padding: 10px;
+    min-width: 80px;
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 100px;
+    vertical-align: top;
+}
+
+.table-caption {
+    display: table-caption;
+}
+
+.menu {
+    margin: 100px auto 100px;
+}
+
+.menu-item {
+    display: table-cell;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+.big {
+    font-size: 60px;
+    padding: 20px;
+}
