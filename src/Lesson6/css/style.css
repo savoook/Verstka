@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    width: 400px;
+    border: 5px outset yellowgreen;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+fieldset {
+    padding: 15px;
+}
+
+legend {
+    color: yellowgreen;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+input[type=checkbox] {
+    width: auto;
+}
+input[type=radio] {
+    width: auto;
+}

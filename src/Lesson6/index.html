@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<form action="http://echo.htmlacademy.ru" autocomplete="off" method="post">
+    <fieldset>
+        <legend>Учётка</legend>
+        <label for="login">логин</label>
+        <input type="text" id="login" name="login">
+        <label for="password">пароль</label>
+        <input type="password" id="password" name="password">
+    </fieldset>
+    <fieldset>
+        <legend>Опции</legend>
+        <label for="green">Зелёный</label>
+        <input type="checkbox" id="green" name="color" value="green">
+        <label for="red">Красный</label>
+        <input type="checkbox" id="red" name="color" value="red">
+        <label for="blue">Синий</label>
+        <input type="checkbox" id="blue" name="color" value="blue">
+    </fieldset>
+    <fieldset>
+        <legend>Радио станция</legend>
+        <label for="bbc">BBC</label>
+        <input type="radio" name="radio station" value="1" id="bbc">
+        <label for="dacha">Дача</label>
+        <input type="radio" name="radio station" value="2" id="dacha">
+        <label for="relax">Релакс</label>
+        <input type="radio" name="radio station" value="3" id="relax">
+    </fieldset>
+<fieldset>
+    <legend>Еда</legend>
+    <select name="food" id="">
+        <option value="1">Ветчина</option>
+        <option value="2">Сыр</option>
+        <option value="3">Яцйо</option>
+    </select>
+</fieldset>
+    <input type="submit">
+    <input type="reset">\
+    <input type="hidden" name="cost" value="100">
+
+    <button>Button</button>
+</form>
+</body>
+</html>
