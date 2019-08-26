@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form action="http://echo.htmlacademy.ru" autocomplete="on" method="get">
+    <fieldset>
+        <legend>Товар</legend>
+        <label for="type">Тип</label>
+        <input type="text" name="type" id="type" value="" pattern="[A-Za-z]{6,}" required placeholder="введите тип">
+        <label for="comp">Марка</label>
+        <input type="text" name="сomp" id="comp" value="" required placeholder="введите марку">
+        <label for="model">Модель</label>
+        <input type="text" name="model" id="model" value="" required placeholder="введите модель">
+    </fieldset>
+    <fieldset>
+        <label for="data">Дата</label>
+        <input type="date" name="data" id="data" value="10.01.2001">
+    </fieldset>
+    <input type="submit">
+    <input type="reset">
+</form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    width: 400px;
+    border: 10px solid yellowgreen;
+    padding: 20px;
+    margin: 0px auto;
+}
+legend {
+    text-align: center;
+}
+label {
+    text-align: right;
+    font-size: x-large;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input [type=text] {
+    text-align: center;
+}
